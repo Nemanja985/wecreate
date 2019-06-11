@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>collapse</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Video-Playing/fullscreen" transform="translate(-35.000000, -81.000000)">
+            <g id="collapse" transform="translate(35.000000, 81.000000)">
+                <circle id="Oval-6" fill="#FFFFFF" fill-rule="nonzero" cx="20" cy="20" r="20"></circle>
+                <polyline id="Stroke-1" stroke="#4A4A4A" stroke-width="1.5" transform="translate(20.000000, 21.000000) scale(-1, -1) rotate(-270.000000) translate(-20.000000, -21.000000) " points="24 19 20 23 16 19"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

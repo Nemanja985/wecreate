@@ -1,0 +1,5 @@
+#!/bin/bash
+chown apache:apache -R /var/www/wordpress/dev-tgi-wp/wp-content/config
+chown apache:apache -R /var/www/wordpress/dev-tgi-wp/wp-content/plugins
+chown apache:apache -R /var/www/wordpress/dev-tgi-wp/wp-content/mu-plugins
+chown apache:apache -R /var/www/wordpress/dev-tgi-wp/wp-content/themes

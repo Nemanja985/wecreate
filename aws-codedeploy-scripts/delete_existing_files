@@ -1,0 +1,5 @@
+#!/bin/bash
+rm -rf /home/ec2-user/tmp-deployment-files
+rm -rf /var/www/wordpress/dev-tgi-wp/wp-content/themes/twenty*
+rm /var/www/wordpress/dev-tgi-wp/wp-content/plugins/hello.php
+rm -rf /var/www/wordpress/dev-tgi-wp/wp-content/plugins/akismet

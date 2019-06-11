@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="20px" viewBox="0 0 28 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="button/kitchensettings/scale-1" transform="translate(-58.000000, -92.000000)" stroke="#9B9B9B" stroke-width="1.2">
+            <g id="scale">
+                <g id="Group" transform="translate(58.000000, 93.000000)">
+                    <polygon id="Stroke-1" points="23.8804 4.9951 3.8564 4.9951 0.6004 0.4001 27.1364 0.4001"></polygon>
+                    <polygon id="Stroke-3" points="25.8462 18.3999 1.8902 18.3999 1.8902 14.3799 8.4822 7.6579 18.9322 7.6579 25.8462 14.3799"></polygon>
+                    <polygon id="Stroke-6" points="9.085 14.863 18.651 14.863 18.651 11.246 9.085 11.246"></polygon>
+                    <path d="M10.7691,5.1972 L10.7691,7.3792" id="Stroke-7"></path>
+                    <path d="M16.9673,5.1972 L16.9673,7.3792" id="Stroke-8"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

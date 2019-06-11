@@ -1,0 +1,6 @@
+{
+    "tax\/category": "[{\"term_id\":31,\"name\":\"American\",\"slug\":\"american\",\"description\":\"\",\"parent\":0},{\"term_id\":32,\"name\":\"Asian\",\"slug\":\"asian\",\"description\":\"\",\"parent\":0},{\"term_id\":33,\"name\":\"European\",\"slug\":\"european\",\"description\":\"\",\"parent\":0},{\"term_id\":1,\"name\":\"Uncategorised\",\"slug\":\"uncategorised\",\"description\":\"\",\"parent\":0}]",
+    "tax\/device_type": "[{\"term_id\":11,\"name\":\"MC1.1\",\"slug\":\"mc-1-1\",\"description\":\"\",\"parent\":0},{\"term_id\":12,\"name\":\"MC2.0\",\"slug\":\"mc-2-0\",\"description\":\"\",\"parent\":0},{\"term_id\":13,\"name\":\"MC3.0\",\"slug\":\"mc-3-0\",\"description\":\"\",\"parent\":0}]",
+    "tax\/complexity": "[{\"term_id\":14,\"name\":\"Beginner\",\"slug\":\"beginner\",\"description\":\"\",\"parent\":0},{\"term_id\":15,\"name\":\"Expert\",\"slug\":\"expert\",\"description\":\"\",\"parent\":0},{\"term_id\":16,\"name\":\"Intermediate\",\"slug\":\"intermediate\",\"description\":\"\",\"parent\":0}]",
+    ".label": "Recipes"
+}

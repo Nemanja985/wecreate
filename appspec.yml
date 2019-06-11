@@ -1,0 +1,58 @@
+version: 0.0
+os: linux
+files:
+  - source: /composer.json
+    destination: /home/ec2-user/tmp-deployment-files
+  - source: /composer.lock
+    destination: /home/ec2-user/tmp-deployment-files
+  - source: /wp-content/themes/tgi-child
+    destination: /home/ec2-user/tmp-deployment-files/tgi-child
+  - source: /wp-content/plugins
+    destination: /home/ec2-user/tmp-deployment-files/plugins
+  - source: /wp-content/mu-plugins
+    destination: /home/ec2-user/tmp-deployment-files/mu-plugins
+  - source: /wp-content/config
+    destination: /home/ec2-user/tmp-deployment-files/config
+  - source: /id_rsa
+    destination: /home/ec2-user/tmp-deployment-files
+  - source: /known_hosts
+    destination: /home/ec2-user/tmp-deployment-files
+permissions:
+  - object: /home/ec2-user/tmp-deployment-files
+    pattern: "composer.*"
+    owner: ec2-user
+    group: ec2-user
+  - object: /home/ec2-user/tmp-deployment-files/tgi-child
+    pattern: "**"
+    owner: ec2-user
+    group: ec2-user
+  - object: /home/ec2-user/tmp-deployment-files/id_rsa
+    owner: ec2-user
+    group: ec2-user
+    mode: 400
+  - object: /home/ec2-user/tmp-deployment-files/known_hosts
+    owner: ec2-user
+    group: ec2-user
+    mode: 644
+hooks:
+  BeforeInstall:
+    - location: aws-codedeploy-scripts/install_dependencies
+      timeout: 600
+      runas: root
+    - location: aws-codedeploy-scripts/delete_existing_files
+      timeout: 600
+      runas: root
+  AfterInstall:
+    - location: aws-codedeploy-scripts/deploy_tmp_files_0
+      timeout: 600
+      runas: root
+    - location: aws-codedeploy-scripts/install_plugins
+      timeout: 1000
+      runas: ec2-user
+  ValidateService:
+    - location: aws-codedeploy-scripts/deploy_tmp_files_1
+      timeout: 600
+      runas: root
+    - location: aws-codedeploy-scripts/change_permissions
+      timeout: 600
+      runas: root

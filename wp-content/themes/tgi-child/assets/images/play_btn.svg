@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="74px" viewBox="0 0 74 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>play btn copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="button/playbutton-1" transform="translate(-14.000000, -14.000000)">
+            <g id="play-btn-copy" transform="translate(14.000000, 14.000000)">
+                <circle id="Oval" fill="#FFFFFF" opacity="0.5" cx="37" cy="37" r="37"></circle>
+                <path d="M45.7636973,35.8834534 L34.6662208,28.2358485 C33.7895208,27.6312071 32.59462,28.2592192 32.59462,29.3240831 L32.59462,44.6198922 C32.59462,45.6847561 33.7895208,46.3121689 34.6662208,45.7081268 L45.7636973,38.0599227 C46.5259409,37.5349813 46.5259409,36.408994 45.7636973,35.8834534 Z" id="Stroke-1" fill="#FF4B2B"></path>
+            </g>
+        </g>
+    </g>
+</svg>

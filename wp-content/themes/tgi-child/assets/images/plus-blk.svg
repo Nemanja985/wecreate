@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="21px" viewBox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Button/minus Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03.1-TGI-Web-XL-Recipe-Detail" transform="translate(-905.000000, -1572.000000)" fill="#575757" fill-rule="nonzero">
+            <g id="button/plus" transform="translate(900.000000, 1567.000000)">
+                <rect id="Rectangle" x="5" y="15" width="20" height="1"></rect>
+                <rect id="Rectangle" transform="translate(15.000000, 15.500000) rotate(-270.000000) translate(-15.000000, -15.500000) " x="5" y="15" width="20" height="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,4 @@
+{
+    "tantan_wordpress_s3": "a:16:{s:13:\"access-key-id\";s:20:\"AKIAJHMCET34TF774AIA\";s:6:\"bucket\";s:31:\"tgi-wordpress-media-offload-dev\";s:10:\"cloudfront\";s:0:\"\";s:10:\"copy-to-s3\";s:1:\"1\";s:6:\"domain\";s:4:\"path\";s:20:\"enable-object-prefix\";s:1:\"1\";s:11:\"force-https\";s:1:\"0\";s:13:\"object-prefix\";s:19:\"wp-content\/uploads\/\";s:17:\"object-versioning\";s:1:\"1\";s:17:\"post_meta_version\";i:7;s:8:\"provider\";s:3:\"aws\";s:6:\"region\";s:14:\"ap-southeast-1\";s:17:\"remove-local-file\";s:1:\"1\";s:17:\"secret-access-key\";s:40:\"VfNwFfe\/LUeedL2Ni2Tx4WCkBptgGM9WeEGzr2Gg\";s:13:\"serve-from-s3\";s:1:\"1\";s:21:\"use-yearmonth-folders\";s:1:\"1\";}",
+    ".label": "Offload Media"
+}

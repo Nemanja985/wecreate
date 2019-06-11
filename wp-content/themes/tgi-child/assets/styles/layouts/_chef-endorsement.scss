@@ -1,0 +1,82 @@
+.page-create-recipe{
+	#chef-endorsement{
+		display: none;
+		// border: 1px solid red;
+		margin-top: 245px;
+		.page-content-wrapper{
+			width: 1150px;
+			margin: 0 auto;
+			position: relative;
+			min-height: 500px;
+			
+			.chef-endorsement-title{
+				margin-top: 88px;
+				padding-bottom: 100px;
+				span{
+					color: #4A4A4A;
+					font-family: $title_font_family;
+					font-size: 32px;
+					font-weight: 500;
+					line-height: 41px;
+				}
+			}
+			#status-container{
+				width: 100%;
+				.status-video-icon{
+					width: 104px;
+					height: 104px;
+					margin: 0 auto;
+					background-image: url('../../dist/images/video-player.svg');
+					background-repeat: no-repeat;
+					background-size: 104px;
+					
+				}
+				.submitted-text{
+					width: 820px;
+					margin: 85px auto 0;
+					text-align: center;
+					h1{
+						color: #FF4B2B;
+						font-family: $title_font_family;
+						font-size: 50px;
+						font-weight: bold;
+						line-height: 63px;
+						text-align: center;
+						padding-bottom: 20px;
+					}
+					p{
+						color: #4A4A4A;
+						font-family: "Circular Std";
+						font-size: 18px;
+						font-weight: 300;
+						line-height: 32px;
+						text-align: center;
+
+					}
+				}
+				.go-home-btn {
+					margin: 60px auto 250px;
+					height: 60px;
+					width: 180px;
+					border: 1px solid #9B9B9B;
+					border-radius: 30px;
+					color: #9B9B9B;
+					font-family: $text_font_family;
+					font-size: 16px;
+					font-weight: 500;
+					line-height: 60px;
+					vertical-align: middle;
+					text-align: center;
+					cursor: pointer;
+					&:hover{
+						background: $orange;
+						border: 1px solid $orange;
+						color: #fff;
+					}
+				}
+			}
+
+		}
+	}
+
+}

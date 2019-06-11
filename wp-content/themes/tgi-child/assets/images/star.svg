@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="14px" viewBox="0 0 15 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="8.70554801e-05 0.242 14.5594994 0.242 14.5594994 14 8.70554801e-05 14"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="symbol/star-1" transform="translate(0.000000, -1.000000)">
+            <g id="Group-16">
+                <g id="Group-3" transform="translate(0.000000, 0.758100)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M14.2211,5.3743 L9.3111,5.3743 L7.5981,0.4663 C7.5361,0.2913 7.3441,0.1993 7.1691,0.2613 C7.0691,0.2963 6.9911,0.3773 6.9591,0.4783 L5.4631,5.3743 L0.3381,5.3743 C0.1531,5.3723 0.0011,5.5203 0.0001,5.7063 C-0.0009,5.8183 0.0561,5.9253 0.1501,5.9873 L4.1991,8.6933 L2.7051,13.5593 C2.6501,13.7353 2.7481,13.9233 2.9261,13.9783 C3.0301,14.0103 3.1431,13.9903 3.2291,13.9253 L7.2801,10.8913 L11.3321,13.9323 C11.4801,14.0433 11.6911,14.0153 11.8031,13.8673 C11.8681,13.7813 11.8891,13.6693 11.8571,13.5653 L10.3611,8.6933 L14.4091,5.9873 C14.5641,5.8853 14.6061,5.6773 14.5031,5.5233 C14.4411,5.4293 14.3341,5.3733 14.2211,5.3743" id="Fill-1" fill="#58595B" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

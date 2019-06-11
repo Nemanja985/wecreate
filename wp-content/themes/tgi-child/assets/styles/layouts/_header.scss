@@ -1,0 +1,164 @@
+body {
+  .mobile-menu-link{
+    @media (min-width: 1001px){
+      display: none;
+    }
+  }
+  .desktop-menu-link{
+    @media (max-width: 1000px){
+      display: none;
+    }
+  }
+  & #page-header-bg h1{
+    color: #ffffff !important;
+  }
+  & .mobile-icon{
+    & ul{
+      display: inline-block;
+      padding-right: 20px;
+      & li{
+        display: block !important;
+        & [class^="icon-"]{
+          background-color: #ffffff !important;
+          color: #000 !important;
+          font-size: 23px;
+          height: 26px !important;
+        }
+      }
+    }
+    & .tgi_mobile_menu_icon{
+      display: inline-block;
+      a{
+        span{
+          height: 28px;
+          i.lines-button{
+            top: 30px !important;
+            .lines{
+              width: 28px !important;
+              &:before{
+                background-color: #000 !important;
+                height: 3px !important;
+                margin-top: 6px;
+                padding-right: 5px;
+              }
+              &:after{
+                background-color: #000 !important;
+                height: 3px !important;
+                padding-right: 5px;
+              }
+            }
+            &:after{
+              background-color: #000 !important;
+              height: 3px !important;
+              margin-top:3px;
+              padding-right: 5px;
+              
+            }
+          }
+        }
+      }
+      
+    }
+  }
+  #header-outer.transparent header#top nav>ul.sf-menu {
+    & li {
+      & a {
+        font-size: 16px !important;
+        font-family: $text_font_family !important;
+        opacity: 1 !important;
+        color: #ffffff !important;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        &::after {
+          display: none !important;
+        }
+      }
+
+      &:last-child {
+        background-color: #ffffff;
+        border-radius: 50px !important;
+        margin-left: 35px;
+
+        & a {
+          color: $color__text_primary1 !important;
+          padding: 22px 25px !important;
+          border-radius: 50px !important;
+          
+        }
+
+        &:hover {
+          background-color: $color__text_primary1;
+
+          & a {
+            color: #ffffff !important;
+          }
+        }
+      }
+    }
+  }
+
+  #slide-out-widget-area.slide-out-from-right .inner .off-canvas-menu-container li a{
+    background-color: transparent !important;
+  }
+  
+  #header-outer header#top nav>ul.sf-menu {
+    & li {
+      & a {
+        font-size: 16px !important;
+        font-family: $text_font_family !important;
+        opacity: 1 !important;
+        color: #4A4A4A !important;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        &::after {
+          display: none !important;
+        }
+      }
+
+      
+    }
+    li.create-recipe-menu {
+        background-color: #ffffff;
+        border-radius: 50px !important;
+        margin-left: 35px;
+        border: 1px solid #D4D4D4;
+        margin-top: 17px;
+        & a {
+          // color: #fff !important;
+          padding: 22px 25px !important;
+          border-radius: 50px !important;
+          // background-color: $color__text_primary1;
+        }
+
+        &:hover {
+          background-color: $color__text_primary1;
+          border: 1px solid $color__text_primary1;
+          // opacity: .9;
+          & a {
+            color: #ffffff !important;
+          }
+        }
+      }
+  }
+
+  #slide-out-widget-area .inner .off-canvas-menu-container li a{
+    font-size: 26px !important;
+  }
+
+  & nav {
+    & .buttons {
+      float: left !important;
+
+      & #search-btn {
+        padding-right: 15px;
+
+        &>div {
+          border: none !important;
+        }
+      }
+
+    }
+  }
+}

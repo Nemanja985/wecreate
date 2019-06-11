@@ -1,0 +1,141 @@
+.page-my-profile{
+	.user-account-edit-container{
+		.account-heading{
+			margin-top: 60px;
+			text-align: left;
+			padding-bottom: 43px;
+			span{
+				color: #CBCBCB;
+				font-family: $text_font_family;
+				font-size: 20px;
+				font-weight: 500;
+				line-height: 32px;
+				margin-right: 52px;
+				cursor: pointer;
+				@media(max-width: 1000px){
+					display: block;
+				}
+			}
+			span.active{
+				color: #FF4B2B;
+			}
+		}
+		.info-row{	
+			padding-bottom: 59px;
+			.info-col{
+				display: inline-block;
+				width: 40%;
+				margin-right: 5%;
+				@media(max-width: 480px){
+					width: 100%;
+					margin-right: 0;
+				}
+				label{
+					display: block;
+					color: #CBCBCB;
+					font-family: $text_font_family;
+					font-size: 15px;
+					font-weight: 300;
+					line-height: 19px;
+				}
+				input {
+					display: block;
+					height: 64px;
+					padding-bottom:20px;
+					color: #4A4A4A;
+					font-family: $text_font_family;
+					font-size: 22px;
+					font-weight: 300;
+					line-height: 62px;
+					border-bottom: 1px solid #CBCACB;
+				}
+			}
+			.info-col.password-btn{
+				margin-bottom: 20px;
+			}
+		}
+		.form-textarea{
+			width: 85%;
+			margin-bottom: 10px;
+			label{
+				display: block;
+				color: #CBCBCB;
+				font-family: $text_font_family;
+				font-size: 15px;
+				font-weight: 300;
+				line-height: 19px;
+			}
+			textarea{
+				color: #4A4A4A;
+				font-family: $text_font_family;
+				font-size: 22px;
+				font-weight: 300;
+				line-height: 34px;
+				border-bottom: 1px solid #CBCACB;
+			}
+		}
+		.form-selection{
+			display: inline-block;
+			width: 40%;
+			margin-right: 5%;
+			padding-bottom: 59px;
+			label{
+				display: block;
+				color: #CBCBCB;
+				font-family: $text_font_family;
+				font-size: 15px;
+				font-weight: 300;
+				line-height: 19px;
+			}
+			select#cooking_skill{
+				border-bottom: 1px solid #CBCACB !important;
+				-webkit-appearance: none;
+			    -moz-appearance: none;
+			    appearance: none;
+			    -webkit-box-shadow: none !important;
+				box-shadow: none !important;
+				border-radius: 0 !important;
+				background: transparent;
+				color: #4A4A4A;
+				font-family: $text_font_family;
+				font-size: 22px;
+				font-weight: 300;
+				line-height: 34px;
+				padding: 20px 0 30px!important;
+			}
+		}
+		.post-user-update{
+			margin-bottom: 20px;
+			background: #FF4B2B;
+			padding: 10px 20px;
+			display: inline-block;
+			color: #fff;
+		    cursor: pointer;
+		    &:hover{
+		    	opacity: .9;
+		    }
+		}
+		
+
+		.change-password-title{
+			margin-top: 30px;
+			padding-bottom: 30px;
+			color: #FF4B2B;
+			font-family: $text_font_family;
+			font-size: 18px;
+			font-weight: 500;
+			line-height: 32px;
+			margin-right: 52px;
+		}
+	}
+	.update-msg{
+		text-align: center;
+		margin-top: 100px;
+		color: #FF4B2B;
+	}
+	.update-msg-error{
+		text-align: center;
+		margin-top: 100px;
+		color: red;
+	}
+}

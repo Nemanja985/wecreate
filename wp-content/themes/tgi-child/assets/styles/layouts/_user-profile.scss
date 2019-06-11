@@ -1,0 +1,233 @@
+.page-my-profile{
+	@media only screen and (min-width: 1000px){
+		.container{
+			max-width: 1680px;
+			padding: 0;
+		}
+	}
+	header#top{
+		.container{
+			padding: 0 60px;
+			@media(max-width: 1000px){
+				padding: 0 20px;
+			}
+		}
+	}
+	.wpb_wrapper >div{
+		margin-bottom: 0 !important;
+	}
+	#profile-menu-desk{
+		@media(max-width: 1000px){
+			display: none;
+		}
+	}
+	#profile-menu-mob{
+		display: none;
+		@media(max-width: 1000px){
+			display: block;
+		}
+	}
+	#user-profile{
+		position: relative;
+		@media(max-width: 1000px){
+			.slider-btn{
+				position: absolute;
+				top: 200px;
+				left: 5px;
+				width: 15px;
+				border-left: 3px dotted #ccc;	
+				border-right: 3px dotted #ccc;
+				height: 40px;
+				z-index: 20;
+				cursor: pointer;
+				&:hover{
+					border-left: 3px dotted $orange;	
+					border-right: 3px dotted $orange;
+				}
+			}
+		}
+
+		.user-profile-col{
+			position: relative;
+			float: left;
+			width: 30%;
+			min-height: 800px;
+			border-radius: 3px;
+			// background-color: #FFFFFF;
+			margin-top: 34px;
+			box-shadow: 60px 0px 144px 20px rgba(255,75,43,0.15);
+			@media(max-width: 1000px){
+				width: 100%;
+				overflow: hiden;
+				display: block;
+				min-height: auto;
+				margin-top: 10px;
+				// position: absolute;
+				// top: 0;
+				// left: -20px;
+				// display: none;
+			}
+
+			#spinner{
+				position: fixed; 
+				top: 200px;
+				left: 50%;
+				z-index: 100;
+				width: 54px;
+				height: 54px;
+				display: none;
+			}
+			.profile-image-row{
+				width: 100%;
+				display: block;
+				text-align: center;
+				position: relative;
+				padding-top: 30px;
+				@media(max-width: 1000px){
+					padding-top: 0;
+					padding-left: 20px;
+					display: inline-block;
+					width: 80px;
+				}
+				.profile-img{
+					margin-top: 30px;
+					display: inline-block;
+					width: 188px;
+					height: 188px;
+					border-radius: 100%;
+					overflow: hidden;
+					box-shadow: 0 13px 89px 0 rgba(255,75,43,0.15);
+					@media(max-width: 1000px){
+						height: 60px;
+						width: 60px;
+					}
+				}
+				.avatar-wrapper{
+					position: absolute;
+					top: 60px;
+					left: 50%;
+					transform: translateX(-50%);
+					width: 188px;
+					height: 188px;
+					@media(max-width: 1000px){
+						height: 60px;
+						width: 60px;
+					}
+					.camera{
+						height: 40px;
+						width: 40px;
+						border-radius: 100%;
+						background-color: #FFFFFF;
+						background-image: url('../../dist/images/camera.svg');
+						background-repeat: no-repeat;
+						background-position: center;
+						position: absolute;
+						bottom: 0;
+						right: 10px;
+						cursor: pointer;
+					}
+				}
+			}
+			.profile-name{
+				display: block;
+				color: #FF4B2B;
+				font-family: $title_font_family;
+				font-size: 28px;
+				font-weight: 500;
+				line-height: 32px;
+				text-align: center;
+				@media(max-width: 1000px){
+					position: absolute;
+					top: 50px;
+					left: 90px;
+					font-size: 24px;
+				}
+			}
+			.profile-stats{
+				// display: inline-block;
+				text-align: center;
+				margin-top: 60px;
+				padding-bottom: 40px;
+				@media(max-width: 1000px){
+					margin-top: 20px;
+					display: block;
+					padding-left: 30px;
+					// padding-bottom: 0;
+					padding-bottom: 20px;
+				}
+				.profile-stats-cols{
+					display: inline-block;
+					margin: 0 26px;
+
+					@media(max-width: 1000px){
+						// width: 100px;
+						display: inline-block;
+						float: left;
+
+						margin : 0 20px 20px 0;
+					}
+					.stat-number{
+						display: block;
+						color: #4A4A4A;
+						font-family: $text_font_family;
+						font-size: 22px;
+						font-weight: 500;
+						line-height: 32px;
+						text-align: center;
+						margin-bottom: 5px;
+						@media(max-width: 1000px){
+							margin-bottom: 0;
+							line-height: 22px;
+						}
+					}
+					.stat-text{
+						width: 120px;
+						color: #4A4A4A;
+						font-family: $text_font_family;
+						font-size: 18px;
+						font-weight: 300;
+						line-height: 32px;
+						text-align: center;
+						@media(max-width: 1000px){
+							width: auto;
+							margin-bottom: 0;
+							line-height: 22px;
+						}
+					}
+					@media(max-width: 1250px){
+						display: block;
+					}
+				}
+			}
+			.profile-menu-tab, .logout-menu{
+				display: block;
+				border-top: 1px solid #DFDFDF;
+				color: #9B9B9B;
+				font-family: $title_font_family;
+				padding-top: 23px;
+				padding-bottom: 18px;
+				font-size: 24px;
+				font-weight: 500;
+				line-height: 28px;
+				text-align: center;
+				cursor: pointer;
+				@media(max-width: 1000px){
+
+					padding-top: 10px;
+					padding-bottom: 10px;
+					vertical-align: middle;
+					text-align: left;
+					padding-left: 30px;
+				}
+				&:hover{
+					color: #FF4B2B;
+				}
+			}
+			.profile-menu-tab.active{
+				border-top: 2px solid #FF4B2B;
+				color: #FF4B2B;
+			}
+		}
+		
+	}
+}

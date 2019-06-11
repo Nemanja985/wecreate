@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /var/www/wordpress/dev-tgi-wp
+/usr/local/bin/composer install

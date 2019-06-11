@@ -1,0 +1,119 @@
+body.ascend.vc_responsive #search-outer {
+  top: 0px !important;
+  height: 100% !important;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  @media (min-width: 1000px) {
+    z-index: 10000 !important;
+  }
+  @media (max-width: 1000px) {
+    display: block !important;
+  }
+
+  & #search {
+    background-color: #ffffff;
+    height: 420px;
+
+    & .span_12 span {
+      color: #4A4A4A;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 32px;
+      font-family: $text_font_family !important;
+      text-align: left !important;
+    }
+  }
+
+  & #search-box {
+    position: relative;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px !important;
+
+    & span i {
+      text-align: left !important;
+    }
+  }
+
+  &>#search form {
+    border-bottom: 2px solid #FF4B2B;
+    margin-bottom: 25px;
+  }
+}
+
+body.ascend #search-outer #search #search-box input[type="text"] {
+  font-family: $title_font_family !important;
+  color: $color__text_primary1 !important;
+  font-size: 40px !important;
+  font-weight: 500;
+  line-height: 51px;
+  text-transform: capitalize !important;
+  text-align: left !important;
+  margin-bottom: 10px;
+}
+
+body.search {
+  & #ajax-content-wrap .row .col.section-title {
+    border-bottom: none !important;
+
+    & h1 {
+      color: $color__text_primary1 !important;
+      font-family: $title_font_family !important;
+      font-size: 40px !important;
+      font-weight: 500;
+      line-height: 51px !important;
+      padding-bottom: 25px;
+
+      @media (max-width: 1000px) {
+        font-size: 30px !important;
+      }
+
+      @media (max-width: 480px) {
+        font-size: 25px !important;
+      }
+
+      & span {
+        color: $color__text_primary1 !important;
+        font-family: $title_font_family !important;
+        font-size: 40px !important;
+        font-weight: 500;
+        line-height: 51px !important;
+
+        @media (max-width: 1000px) {
+          font-size: 30px !important;
+        }
+
+        @media (max-width: 480px) {
+          font-size: 25px !important;
+        }
+      }
+    }
+
+    & span {
+      color: #4A4A4A;
+      font-family: $text_font_family !important;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 20px;
+      padding-left: 0px !important;
+    }
+  }
+
+  & #search-results {
+    & .result {
+      width: 23%;
+
+      & .inner-wrap {
+        padding: 0px;
+
+        & h2 {
+          padding: 25px 27px 22px 28px !important;
+        }
+      }
+
+      & img {
+        margin-bottom: -10px;
+      }
+    }
+  }
+}

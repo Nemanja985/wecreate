@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'CircularStd-Bold';
+    src: url('../fonts/CircularStd-Bold.eot');
+    src: local('☺'),
+    url('../fonts/CircularStd-Bold.woff') format('woff'),
+    url('../fonts/CircularStd-Bold.ttf') format('truetype'),
+    url('../fonts/CircularStd-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CircularStd-Book';
+    src: url('../fonts/CircularStd-Book.eot');
+    src: local('☺'),
+        url('../fonts/CircularStd-Book.woff') format('woff'),
+        url('../fonts/CircularStd-Book.ttf') format('truetype'),
+        url('../fonts/CircularStd-Book.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tgi_icon';
+    src: url('../fonts/tgi_icon.eot');
+    src: local('☺'),
+        url('../fonts/tgi_icon.woff') format('woff'),
+        url('../fonts/tgi_icon.ttf') format('truetype'),
+        url('../fonts/tgi_icon.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+      font-family: 'fontello';
+      src: url('../fonts/fontello/fontello.eot?145366');
+      src: url('../fonts/fontello/fontello.eot?145366#iefix') format('embedded-opentype'),
+           url('../fonts/fontello/fontello.woff?145366') format('woff'),
+           url('../fonts/fontello/fontello.ttf?145366') format('truetype'),
+           url('../fonts/fontello/fontello.svg?145366#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+}
+[class^="tgi-icon-"],
+[class*=" tgi-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'tgi_icon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 16px;
+    color: #4a4a4a;
+    font-size: 15px;
+    vertical-align: bottom;
+    display: inline-block;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    span{
+            color: #4A4A4A;
+            font-family: $title_font_family;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 24px;
+    }
+}
+
+.tgi-icon-button-arrow-left-circle-grey:before {
+    content: "\e900";
+    vertical-align: middle !important;
+}
+
+.tgi-icon-button-arrow-right-circle-orange:before {
+    content: "\e901";
+    vertical-align: middle !important;
+}
+
+.tgi-icon-icon-clock-black:before {
+    content: "\e902";
+    vertical-align: middle !important;
+
+}
+// .tgi-icon-icon-clock-black{
+//     line-height: 20px;
+// }
+
+.tgi-icon-icon-fire-black:before {
+    content: "\e903";
+    vertical-align: middle !important;
+}
+
+.tgi-icon-icon-level-black:before {
+    content: "\e904";
+    vertical-align: middle !important;
+}

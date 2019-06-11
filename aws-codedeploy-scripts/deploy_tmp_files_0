@@ -1,0 +1,22 @@
+#!/bin/bash
+rm /var/www/wordpress/dev-tgi-wp/composer.*
+mv -f /home/ec2-user/tmp-deployment-files/composer.* /var/www/wordpress/dev-tgi-wp/
+
+if [ ! -d /var/www/wordpress/dev-tgi-wp/vendor ]; then
+  mkdir /var/www/wordpress/dev-tgi-wp/vendor;
+fi
+
+if [ ! -d /var/www/wordpress/dev-tgi-wp/wp-content/themes/salient ]; then
+  mkdir /var/www/wordpress/dev-tgi-wp/wp-content/themes/salient;
+fi
+
+chown ec2-user:ec2-user -R /var/www/wordpress/dev-tgi-wp/vendor
+chown ec2-user:ec2-user -R /var/www/wordpress/dev-tgi-wp/wp-content/plugins
+chown ec2-user:ec2-user -R /var/www/wordpress/dev-tgi-wp/wp-content/themes/salient
+chown ec2-user:ec2-user -R /var/www/wordpress/dev-tgi-wp/wp-content/mu-plugins
+
+rm /home/ec2-user/.ssh/id_rsa
+mv -f /home/ec2-user/tmp-deployment-files/id_rsa /home/ec2-user/.ssh/
+
+rm /home/ec2-user/.ssh/known_hosts
+mv -f /home/ec2-user/tmp-deployment-files/known_hosts /home/ec2-user/.ssh/

@@ -1,0 +1,4 @@
+{
+    "tax\/ingredient_category": "[{\"term_id\":17,\"name\":\"Beef\",\"slug\":\"beef\",\"description\":\"\",\"parent\":0},{\"term_id\":34,\"name\":\"Pork\",\"slug\":\"pork\",\"description\":\"\",\"parent\":0},{\"term_id\":35,\"name\":\"Seafoods\",\"slug\":\"seafoods\",\"description\":\"\",\"parent\":0},{\"term_id\":18,\"name\":\"Vegetables\",\"slug\":\"vegetables\",\"description\":\"\",\"parent\":0}]",
+    ".label": "Ingredient Categories"
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="105px" viewBox="0 0 66 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-17.4%" y="-42.1%" width="134.8%" height="215.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Dashboard-User-Login" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="User-Dashboard/Step-2" transform="translate(-317.000000, -842.000000)">
+            <g id="Video-Player-Editor" transform="translate(-12.000000, 216.000000)">
+                <g id="video-crop" filter="url(#filter-1)" transform="translate(164.000000, 637.000000)">
+                    <g id="Group-3" transform="translate(186.000000, 0.000000)">
+                        <path d="M5,-3.55271368e-16 L23.5,-3.55271368e-15 L23.5,63 L5,63 C2.23857625,63 3.38176876e-16,60.9852814 0,58.5 L0,4.5 C-3.38176876e-16,2.01471863 2.23857625,-3.0961749e-15 5,-3.55271368e-16 Z" id="Rectangle-9-Copy" fill="#EDEDED" transform="translate(11.750000, 31.500000) rotate(-180.000000) translate(-11.750000, -31.500000) "></path>
+                        <path d="M8.49653126,27.0535702 L14.8589872,31.2396567 C15.0470043,31.3650558 15.0470043,31.6362441 14.8589872,31.7596042 L8.49653126,35.9467102 C8.28462252,36.0853628 8,35.9375346 8,35.6867364 L8,27.313544 C8,27.0637653 8.28462252,26.9138981 8.49653126,27.0535702" id="Fill-1-Copy" fill="#4A4A4A" transform="translate(11.500000, 31.500000) scale(-1, 1) translate(-11.500000, -31.500000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

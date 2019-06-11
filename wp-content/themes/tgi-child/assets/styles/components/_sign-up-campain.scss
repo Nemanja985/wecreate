@@ -1,0 +1,93 @@
+.whats-cooking-today {
+	text-align: center;
+	min-height: 0 !important;
+	
+    .sign-up-campaign {
+    	width: 100%;
+    	background-color: #fafafa;
+    	padding: 120px 30px 80px;
+    	text-align: center;
+    	margin-bottom: 120px !important;
+        h2 {
+            font-size: 40px !important;
+            padding-bottom: 68px;
+            text-align: center !important;
+            @media (max-width: 700px) {
+                font-size: 32px !important;
+                line-height: 41px !important;
+            }
+        }
+        p {
+            padding: 0px !important;
+            font-size: 40px !important;
+            margin-bottom: 50px;
+            color: #4A4A4A !important;
+            font-size: 40px !important;
+            font-weight: 300 !important;
+            line-height: 50px !important;
+            font-family: $text_font_family !important;
+            line-height: 50px !important;
+            @media (min-width: 700px) and (max-width: 1000px) {
+                font-size: 36px !important;
+                line-height: 36px !important;
+            } 
+            @media (max-width: 480px) {
+                font-size: 24px !important;
+                line-height: 25px !important;
+            }
+        }
+        .select-skill {
+            display: inline-block;
+            width: auto;
+            border-bottom: 2px dashed #4a4a4a;
+            margin-right: 10px;
+            @media(max-width: 1000px) {
+                margin-bottom: 40px;
+            }
+            select {
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                -webkit-box-shadow: none !important;
+                box-shadow: none !important; // height: 58px;
+                line-height: 40px;
+                border-radius: 0 !important;
+                background: transparent;
+                font-size: 40px; // padding: 10px;
+                padding-right: 10px;
+                font-family: $text_font_family;
+                color: #4a4a4a;
+                background: url('../../dist/images/dropdown.svg');
+                background-repeat: no-repeat;
+                background-position: right 0px center;
+                @media(max-width: 700px) {
+                    font-size: 36px;
+                }
+                @media (max-width: 480px) {
+	                font-size: 24px !important;
+	      		
+	            }
+            }
+        }
+    } 
+    .sign-up-btn{
+    	border-radius: 30px;
+    	background-color: #FF4B2B;
+    	color: #fff;
+		font-family: "Circular Std";
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 24px;
+		text-align: center;
+		width: 150px;
+		height: 60px;
+		line-height: 60px;
+		vertical-align: middle;
+		display: inline-block;
+		cursor: pointer;
+		@media(max-width: 480px){
+			width: 90%;
+
+		}
+    }
+}

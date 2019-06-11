@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>button/play-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Recipe-Detail-Page" transform="translate(-723.000000, -2322.000000)">
+            <g id="button/play-1" transform="translate(723.000000, 2322.000000)">
+                <circle id="Oval-4" fill="#FF4B2B" fill-rule="nonzero" cx="15" cy="15" r="15"></circle>
+                <path d="M19.327,14.2947613 L13.312,10.1487613 C12.757,9.76676127 12,10.1647613 12,10.8387613 L12,19.1297613 C12,19.8047613 12.757,20.2017613 13.312,19.8187613 L19.327,15.6737613 C19.81,15.3407613 19.81,14.6277613 19.327,14.2947613" id="Fill-1" fill="#FFFFFF" fill-rule="evenodd"></path>
+            </g>
+        </g>
+    </g>
+</svg>

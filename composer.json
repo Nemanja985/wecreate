@@ -1,0 +1,86 @@
+{
+  "require": {
+    "themenectar/salient": "^8.5",
+    "themenectar/js_composer_salient": "^5.4",
+    "wpackagist-plugin/wordpress-importer": "^0.6.4",
+    "wpackagist-plugin/svg-support": "^2.3",
+    "wpackagist-plugin/contact-form-7": "^5.0",
+    "wpackagist-plugin/duplicate-post": "^3.2",
+    "wpackagist-plugin/wp-migrate-db": "^1.0",
+    "wpackagist-plugin/wp-user-avatar": "^2.1",
+    "wpackagist-plugin/wck-custom-fields-and-custom-post-types-creator": "^2.2",
+    "wpackagist-plugin/amazon-s3-and-cloudfront": "^2.0",
+    "wpml/sitepress-multilingual-cms": "v3.9.4.1",
+    "wpml/wpml-string-translation": "^2.7",
+    "wpml/wpml-translation-management": "^2.5",
+    "wpml/wpml-media-translation": "^2.2",
+    "wpml/acfml": "^0.7.0",
+    "acf/advanced-custom-fields-pro": "^5.6",
+    "amzn/login-with-amazon": "v1.0.0.1",
+    "wpackagist-plugin/acf-image-crop-add-on": "^1.4",
+    "wpackagist-plugin/schema": "^1.7",
+    "wpackagist-plugin/wp-smushit": "^2.9",
+    "wpackagist-plugin/user-role-editor": "^4.47",
+    "wpackagist-plugin/pb-seo-friendly-images": "^3.1",
+    "wpackagist-plugin/wordfence": "^7.1",
+    "wpackagist-plugin/w3-total-cache": "^0.9.7",
+    "wpackagist-plugin/stops-core-theme-and-plugin-updates": "^8.0",
+    "wpackagist-plugin/codepress-admin-columns": "^3.4",
+    "wpackagist-plugin/wp-cfm": "^1.5",
+    "wpackagist-plugin/nav-menu-roles": "^1.9",
+    "wpackagist-plugin/publishpress": "^1.19",
+    "wpackagist-plugin/site-reviews": "^3.5",
+    "wpackagist-plugin/miniorange-login-openid": "^7.1"
+  },
+  "extra": {
+    "installer-paths": {
+      "wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+      "wp-content/themes/{$name}/": ["type:wordpress-theme"]
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "ssh://bitbucket.org/tgifareastteam/salient-theme.git"
+    },
+    {
+      "type": "vcs",
+      "url": "ssh://bitbucket.org/tgifareastteam/salient-visual-composer.git"
+    },
+    {
+      "type": "vcs",
+      "url": "ssh://bitbucket.org/tgifareastteam/wpml-multilingual-cms.git"
+    },
+    {
+      "type": "vcs",
+      "url": "ssh://bitbucket.org/tgifareastteam/wpml-string-translation.git"
+    },
+    {
+      "type": "vcs",
+      "url": "ssh://bitbucket.org/tgifareastteam/wpml-translation-management.git"
+    },
+    {
+      "type": "vcs",
+      "url": "ssh://bitbucket.org/tgifareastteam/wpml-media-translation.git"
+    },
+    {
+      "type": "vcs",
+      "url": "ssh://bitbucket.org/tgifareastteam/advanced-custom-fields-pro.git"
+    },
+    {
+      "type": "vcs",
+      "url": "ssh://bitbucket.org/tgifareastteam/login-with-amazon.git"
+    },
+    {
+      "type": "vcs",
+      "url": "ssh://bitbucket.org/tgifareastteam/wpml-advanced-custom-fields-multilingual.git"
+    }
+  ],
+  "config": {
+    "secure-http": false
+  }
+}

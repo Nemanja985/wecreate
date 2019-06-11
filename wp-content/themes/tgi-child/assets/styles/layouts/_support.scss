@@ -1,0 +1,29 @@
+body.page-support{
+  & .meta{
+    display: none !important;
+  }
+  & .blog-recent .col{
+    border-bottom: 1px solid #CBCBCB;
+    padding-left: 0px !important;
+    padding-bottom: 40px !important;
+  }
+  & .post-header{
+    & h3{
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 25px;
+    }
+  }
+  & .excerpt{
+    color: #4A4A4A;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    font-family: $text_font_family !important;
+    max-width: 820px;
+  }
+  & .category-support>span{
+    display: none !important;
+  }
+}
+

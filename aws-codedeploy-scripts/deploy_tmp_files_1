@@ -1,0 +1,15 @@
+#!/bin/bash
+rm -rf /var/www/wordpress/dev-tgi-wp/wp-content/themes/tgi-child
+mv -f /home/ec2-user/tmp-deployment-files/tgi-child /var/www/wordpress/dev-tgi-wp/wp-content/themes/
+
+rm -rf /var/www/wordpress/dev-tgi-wp/wp-content/mu-plugins
+mv -f /home/ec2-user/tmp-deployment-files/mu-plugins /var/www/wordpress/dev-tgi-wp/wp-content/
+
+rm -rf /var/www/wordpress/dev-tgi-wp/wp-content/config
+mv -f /home/ec2-user/tmp-deployment-files/config /var/www/wordpress/dev-tgi-wp/wp-content/
+
+rm -rf /var/www/wordpress/dev-tgi-wp/wp-content/plugins/tgi-*
+mv -f /home/ec2-user/tmp-deployment-files/plugins/tgi-* /var/www/wordpress/dev-tgi-wp/wp-content/plugins/
+
+rm -rf /var/www/wordpress/dev-tgi-wp/wp-content/plugins/content-block
+mv -f /home/ec2-user/tmp-deployment-files/plugins/content-block /var/www/wordpress/dev-tgi-wp/wp-content/plugins/
